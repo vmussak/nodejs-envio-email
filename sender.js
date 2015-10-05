@@ -1,15 +1,15 @@
 var nodemailer = require('nodemailer');
 
-exports.send = function(){
-
-	var transportador = nodemailer.createTransport({
-	    service: 'hotmail', //se for gmail use "gmail"
+var transportador = nodemailer.createTransport({
+	    service: 'hotmail', //para contas gmail use "gmail"
 	    auth: {
 	        user: 'seuemail@outlook.com',
 	        pass: 'suasenha'
 	    }
 	});
 
+exports.send = function(){
+	
 	var configuracoes = {
 	    from: 'Seu Nome <seuemail@gmail.com>',
 	    to: 'Nome do Destinatário <emaildodestinatario@gmail.com>, Outra Pessoa <outra@email.com>',
