@@ -14,7 +14,7 @@ exports.send = function(){
 	    from: 'Seu Nome <seuemail@gmail.com>',
 	    to: 'Nome do Destinatário <emaildodestinatario@gmail.com>, Outra Pessoa <outra@email.com>',
 	    subject: 'Assunto do Email',
-	    text: 'Conteúdo do email em texto, lembrando que se tiver HTML vai sobrepor',
+	    text: 'Conteúdo do email em texto',
 	    html: '<h1>Conteúdo do email em HTML</h1>'
 	};
 
