@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-envio-email",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Exemplo de uso do NodeMailer para envio de email com nodejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vmussak/nodejs-envio-email"
+  },
+  "author": "Vinicius Mussak <vinicius.mussak@outlook.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/vmussak/nodejs-envio-email/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "nodemailer": "~1.5.0"
+  }
+}
